@@ -12,7 +12,7 @@ const token=process.env.TOKEN;
 const mytoken=process.env.MYTOKEN;
 
 
-app.listen(process.env.PORT,()=>{
+app.listen(8000||process.env.PORT,()=>{
     console.log("weebook is listening");
 });
 //Metodo Get
